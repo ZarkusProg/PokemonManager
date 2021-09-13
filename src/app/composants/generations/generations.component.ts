@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GenerationsComponent implements OnInit {
 
+    generations=[
+      'Génération I',
+      'Génération II',
+      'Génération III',
+      'Génération IV',
+      'Génération V',
+      'Génération VII',];
   constructor() { }
 
   ngOnInit(): void {
